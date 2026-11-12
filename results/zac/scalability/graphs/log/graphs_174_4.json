@@ -1,0 +1,111 @@
+[
+ {
+  "n_qubits": 174,
+  "n_1q_gate": 0,
+  "n_2q_gate": 261,
+  "total_duration": 32183.526442800663,
+  "total_fidelity": 0.0012328939900777705,
+  "fidelity_1q_gate": 1.0,
+  "fidelity_2q_gate": 0.27028632580258244,
+  "fidelity_idle": 1.0,
+  "fidelity_handover": 0.1907429531390866,
+  "fidelity_decoherence": 0.023914051418021883,
+  "log_fidelity_decoherence": 3.7332890673648773,
+  "algorithm": "graphs_174_4",
+  "neg_log10_fidelity": 2.9090742644452576,
+  "n_transfers": 1656,
+  "n_crosstalk": 0,
+  "compilation_time": 7.2727,
+  "compile_cpu_s": 7.272674,
+  "compile_wall_s": 7.29567116702674,
+  "load_before": [
+   2.24267578125,
+   1.76953125,
+   2.3681640625
+  ],
+  "load_after": [
+   2.13134765625,
+   1.76025390625,
+   2.357421875
+  ],
+  "aod_legal": false,
+  "aod_violations": {
+   "double_occupancy": 0,
+   "ghost": 0,
+   "drag": 0,
+   "tone_separation": 7,
+   "crossing": 0,
+   "held_crossing": 0,
+   "move_unheld": 0,
+   "release_off_trap": 0,
+   "ghost_cosite": 0
+  },
+  "aod_first": {
+   "tone_separation": [
+    169,
+    "col lines 192,193"
+   ]
+  },
+  "calib_before_s": 0.07501087500713766,
+  "calib_after_s": 0.07138345798011869,
+  "mode": null,
+  "regen": "2026-10-06",
+  "timestamp": "2026-11-09T05:29:33",
+  "timing_attempt": 1
+ },
+ {
+  "n_qubits": 174,
+  "n_1q_gate": 0,
+  "n_2q_gate": 261,
+  "total_duration": 32064.367201652844,
+  "total_fidelity": 0.0012500539560604763,
+  "fidelity_1q_gate": 1.0,
+  "fidelity_2q_gate": 0.27028632580258244,
+  "fidelity_idle": 1.0,
+  "fidelity_handover": 0.1907429531390866,
+  "fidelity_decoherence": 0.024246897803959774,
+  "log_fidelity_decoherence": 3.71946659539173,
+  "algorithm": "graphs_174_4",
+  "neg_log10_fidelity": 2.903071241141057,
+  "n_transfers": 1656,
+  "n_crosstalk": 0,
+  "compilation_time": 7.2727,
+  "compile_cpu_s": 7.272674,
+  "compile_wall_s": 7.29567116702674,
+  "load_before": [
+   2.24267578125,
+   1.76953125,
+   2.3681640625
+  ],
+  "load_after": [
+   2.13134765625,
+   1.76025390625,
+   2.357421875
+  ],
+  "aod_legal": false,
+  "aod_violations": {
+   "double_occupancy": 0,
+   "ghost": 0,
+   "drag": 0,
+   "tone_separation": 7,
+   "crossing": 0,
+   "held_crossing": 0,
+   "move_unheld": 0,
+   "release_off_trap": 0,
+   "ghost_cosite": 0
+  },
+  "aod_first": {
+   "tone_separation": [
+    169,
+    "col lines 192,193"
+   ]
+  },
+  "calib_before_s": 0.07501087500713766,
+  "calib_after_s": 0.07138345798011869,
+  "mode": null,
+  "regen": "2026-10-06",
+  "timestamp": "2026-11-09T05:29:33",
+  "timing_attempt": 1,
+  "model": "T_TR=15.0 us, T_1Q=52.0 us, T_2Q=0.27 us, T2=1500000.0 us, dec=n_q*T/T2 (recompute)"
+ }
+]

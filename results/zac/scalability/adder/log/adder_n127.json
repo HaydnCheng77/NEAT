@@ -1,0 +1,111 @@
+[
+ {
+  "n_qubits": 127,
+  "n_1q_gate": 1234,
+  "n_2q_gate": 910,
+  "total_duration": 146714.7074878372,
+  "total_fidelity": 4.905199350109735e-10,
+  "fidelity_1q_gate": 0.6905578421718426,
+  "fidelity_2q_gate": 0.010447285872500456,
+  "fidelity_idle": 1.0,
+  "fidelity_handover": 0.016872986615415655,
+  "fidelity_decoherence": 4.029592781158406e-06,
+  "log_fidelity_decoherence": 12.421845233970217,
+  "algorithm": "adder_n127",
+  "neg_log10_fidelity": 9.309343337948999,
+  "n_transfers": 4080,
+  "n_crosstalk": 0,
+  "compilation_time": 7.3758,
+  "compile_cpu_s": 7.375834,
+  "compile_wall_s": 7.384854792035185,
+  "load_before": [
+   2.12158203125,
+   1.83203125,
+   2.35302734375
+  ],
+  "load_after": [
+   2.32373046875,
+   1.8857421875,
+   2.36572265625
+  ],
+  "aod_legal": false,
+  "aod_violations": {
+   "double_occupancy": 0,
+   "ghost": 0,
+   "drag": 0,
+   "tone_separation": 1,
+   "crossing": 0,
+   "held_crossing": 0,
+   "move_unheld": 0,
+   "release_off_trap": 0,
+   "ghost_cosite": 0
+  },
+  "aod_first": {
+   "tone_separation": [
+    108,
+    "col lines 36,37"
+   ]
+  },
+  "calib_before_s": 0.07539299997733906,
+  "calib_after_s": 0.07279608398675919,
+  "mode": null,
+  "regen": "2026-10-06",
+  "timestamp": "2026-11-09T05:30:27",
+  "timing_attempt": 1
+ },
+ {
+  "n_qubits": 127,
+  "n_1q_gate": 1234,
+  "n_2q_gate": 910,
+  "total_duration": 146691.95413413862,
+  "total_fidelity": 4.914658082370367e-10,
+  "fidelity_1q_gate": 0.6905578421718426,
+  "fidelity_2q_gate": 0.010447285872500456,
+  "fidelity_idle": 1.0,
+  "fidelity_handover": 0.016872986615415655,
+  "fidelity_decoherence": 4.037363074782762e-06,
+  "log_fidelity_decoherence": 12.419918783357069,
+  "algorithm": "adder_n127",
+  "neg_log10_fidelity": 9.30850669107805,
+  "n_transfers": 4080,
+  "n_crosstalk": 0,
+  "compilation_time": 7.3758,
+  "compile_cpu_s": 7.375834,
+  "compile_wall_s": 7.384854792035185,
+  "load_before": [
+   2.12158203125,
+   1.83203125,
+   2.35302734375
+  ],
+  "load_after": [
+   2.32373046875,
+   1.8857421875,
+   2.36572265625
+  ],
+  "aod_legal": false,
+  "aod_violations": {
+   "double_occupancy": 0,
+   "ghost": 0,
+   "drag": 0,
+   "tone_separation": 1,
+   "crossing": 0,
+   "held_crossing": 0,
+   "move_unheld": 0,
+   "release_off_trap": 0,
+   "ghost_cosite": 0
+  },
+  "aod_first": {
+   "tone_separation": [
+    108,
+    "col lines 36,37"
+   ]
+  },
+  "calib_before_s": 0.07539299997733906,
+  "calib_after_s": 0.07279608398675919,
+  "mode": null,
+  "regen": "2026-10-06",
+  "timestamp": "2026-11-09T05:30:27",
+  "timing_attempt": 1,
+  "model": "T_TR=15.0 us, T_1Q=52.0 us, T_2Q=0.27 us, T2=1500000.0 us, dec=n_q*T/T2 (recompute)"
+ }
+]

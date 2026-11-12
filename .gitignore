@@ -1,0 +1,21 @@
+# compiled outputs: the per-circuit logs (results/<compiler>/<suite>/log/) and
+# the job records (results/end_to_end/jobs/) are kept; the instruction traces
+# are not (5 GB, single files up to 270 MB; the compilers regenerate them)
+results/**/code/
+results/**/events/
+results/**/native/
+results/end_to_end/preflight.done
+
+# python / OS / editor
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+
+# local-only material, not for the public repo
+# third-party reference PDFs (not redistributable)
+papers/
+# the paper (sources, scripts, figures, PDF)
+paper/
+# development notes, kept local
+NEAT/**/*.md
